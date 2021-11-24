@@ -55,8 +55,8 @@ typeorm_1.createConnection()
         app.use("/sales/", routes_1.SalesRoute);
         app.use("/vendor/", routes_1.VendorRoute);
         app.use("/stock/", routes_1.StockRoute);
-        app.listen(3000, function () {
-            console.log("Express server has started on port 3000. Open http://localhost:3000/ to see results");
+        app.listen(80, function () {
+            console.log("Express server has started on port 3000. Open http://localhost:80/ to see results");
         });
         return [2 /*return*/];
     });
